@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
+    <context-param>
+        <description>project path</description>
+        <param-name>project_path</param-name>
+        <param-value>/home/nigao/Projects/tomcat9/webapps/clipboard/</param-value>
+    </context-param>
+
+    <context-param>
+        <description>Path to store data</description>
+        <param-name>data_path</param-name>
+        <param-value>data/</param-value>
+    </context-param>
+
+    <context-param>
+        <description>Path to store sentences</description>
+        <param-name>sentence_file_path</param-name>
+        <param-value>sentences/</param-value>
+    </context-param>
+</web-app>
